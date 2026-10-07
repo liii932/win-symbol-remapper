@@ -1,0 +1,74 @@
+# Build directories and release packages
+/build/
+/build-*/
+/out/
+/cmake-build-*/
+/dist/
+
+# CMake/CTest/Ninja output, including custom build directories
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+DartConfiguration.tcl
+Testing/
+compile_commands.json
+CMakeUserPresets.json
+/Makefile
+build.ninja
+rules.ninja
+.ninja_deps
+.ninja_log
+
+# Personal runtime mappings; keep the distributable example in source control
+schemes.ini
+schemes.ini.*
+!/examples/schemes.ini
+
+# Compiled programs, libraries, debug symbols and profiling output
+*.exe
+*.dll
+*.obj
+*.o
+*.a
+*.lib
+*.so
+*.dylib
+*.pdb
+*.ilk
+*.exp
+*.pch
+*.gch
+*.d
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+/remapper_test
+/scheme_config_test
+
+# Machine-specific IDE and editor state
+/.vs/
+/.vscode/
+/.idea/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+*.swp
+*.swo
+*~
+
+# Local environment, logs and temporary files
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+*.bak
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini

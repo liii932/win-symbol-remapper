@@ -1,0 +1,16 @@
+# Normalize text files across Windows and Linux.
+* text=auto eol=lf
+
+# Binary assets must not undergo line-ending conversion.
+*.exe binary
+*.dll binary
+*.obj binary
+*.o binary
+*.a binary
+*.lib binary
+*.pdb binary
+*.ico binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.zip binary
